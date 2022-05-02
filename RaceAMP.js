@@ -57,5 +57,48 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 		sortingLabel1 : 'Příjemný', //Response is coded as 0. 
 		sortingLabel2 : 'Nepříjemný',  //Response is coded as 1.
 		randomizeLabelSides : false, //IF false, then label1 is on the left, and label2 is on the right.
+		exampleBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
+			'Zmáčnki tlačítko <B>rightKey</B> pokud targetCat je více vizuálně rightAttribute než průměrný. ' + 
+			'Hit the <b>leftKey</b> key if it is more leftAttribute than average.<br/><br/>' + 
+			'The items appear and disappear quickly.  ' + 
+			'Remember to ignore the item that appears before the targetCat and evaluate only the targetCat.<br/><br/></p>'  + 
+			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
+			'When you are ready to try a few practice responses, hit the <b>space bar</b>.</p>' + 
+			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
+			'<color="000000">[Round 1 of nBlocks]</p></div>',
+			firstBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
+			"Jde to rychle, co? Nevadí, pokud některé nestihnete " + 
+			'Go with your gut feelings.<br/><br/>' + 
+			'Concentrate on each targetCat and rate it as more rightAttribute than the average targetCat with the <b>rightKey</b> key, ' + 
+			'or more leftAttribute than average with the <b>leftKey</b> key.<br/><br/>' + 
+			'Evaluate each targetCat and not the item that appears before it. ' + 
+			'Those items are sometimes distracting.<br/><br/>' + 
+			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
+			'Ready? Hit the <b>space bar</b>.</p>' + 
+			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
+			'<color="000000">[Round 2 of nBlocks]</p></div>',
+			middleBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
+			'Pokračujte do dalšího kola úkolu. ' + 
+			'The rules are exactly the same:<br/><br/>' + 
+			'Concentrate on the targetCat and rate it as more rightAttribute than average with the <b>rightKey</b> key, ' + 
+			'or more leftAttribute than average with the <b>leftKey</b> key.<br/><br/>' + 
+			'Evaluate each targetCat and not the item that appears before it. ' + 
+			'Those items are sometimes distracting. Go with your gut feelings.<br/><br/>' + 
+			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
+			'Ready? Hit the <b>space bar</b>.</p>' + 
+			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
+			'<color="000000">[Round blockNum of nBlocks]</p></div>',
+			lastBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
+			'Připraveni na FINÁLNÍ kolo? ' + 
+			'The rules are exactly the same:<br/><br/>' + 
+			'Concentrate on the targetCat and rate it as more rightAttribute than average with the <b>rightKey</b> key, ' + 
+			'or more leftAttribute than average with the <b>leftKey</b> key.<br/><br/>' + 
+			'Evaluate each targetCat and not the item that appears before it. ' + 
+			'Those items are sometimes distracting. Go with your gut feelings.<br/><br/>' + 
+			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
+			'Ready? Hit the <b>space bar</b>.</p>' + 
+			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
+			'<color="000000">[Round blockNum of nBlocks]</p></div>',
+		 targetCat : 'čínský symbol', //The name of the targets (used in the instructions)
 	});
 });
