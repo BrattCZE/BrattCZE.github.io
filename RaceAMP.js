@@ -54,8 +54,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 		base_url : {//Where are your images at?
 			image : 'https://baranan.github.io/minno-tasks/images/ampImages'
 		}
-		sortingLabel1 : 'Pleasant', //Response is coded as 0. 
-		sortingLabel2 : 'Unpleasant',  //Response is coded as 1.
+		sortingLabel1 : 'Příjemný', //Response is coded as 0. 
+		sortingLabel2 : 'Nepříjemný',  //Response is coded as 1.
 		randomizeLabelSides : false, //IF false, then label1 is on the left, and label2 is on the right.
 	});
 });
