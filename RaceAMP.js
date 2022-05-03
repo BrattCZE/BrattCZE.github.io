@@ -74,7 +74,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 			'Hodnoťte pouze targetCat a ne položky, které jim předcházejí. ' + 
 			'Někdy Vám budou moci připadat rozptylující. To je v pořádku.<br/><br/>' + 
 			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
-			'Připraveni? Stiskněte <b>space bar</b>.</p>' + 
+			'Připraveni? Stiskněte <b>mezerník</b>.</p>' + 
 			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
 			'<color="000000">[2. kolo ze nBlocks]</p></div>',
 			middleBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
@@ -85,7 +85,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 			'Hodnoťte pouze targetCat a ne položky, které jim předcházejí. ' + 
 			'Tyto položky Vás mohou rozptylovat. Řiďte se však při hodnocení Vaším vnitřním pocitem.<br/><br/>' + 
 			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
-			'Připraveni? Stiskněte <b>space bar</b>.</p>' + 
+			'Připraveni? Stiskněte <b>mezerník</b>.</p>' + 
 			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
 			'<color="000000">[blockNum. kolo ze nBlocks]</p></div>',
 			lastBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
@@ -96,11 +96,11 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 			'Hodnoťte pouze targetCat a ne položky, které jim předcházejí. ' + 
 			'Tyto položky Vás mohou rozptylovat. Řiďte se však při hodnocení Vaším vnitřním pocitem.<br/><br/>' + 
 			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
-			'Připraveni? Stiskněte <b>space bar</b>.</p>' + 
+			'Připraveni? Stiskněte <b>mezerník</b>.</p>' + 
 			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
 			'<color="000000">[blockNum. kolo ze nBlocks]</p></div>',
 		 targetCat : 'čínský piktogram', //The name of the targets (used in the instructions)
 		endText: '<div><p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial"><color="FFFFFF">'+
-			'Úspěšně jste splnili úkol. Skvělá práce!<br/><br/>Zmáčkněte "mezerník" pro pokračování k dalšímu úkolu.</p></div>'
+			'Úspěšně jste splnili úkol. Skvělá práce!<br/><br/>Zmáčkněte "mezerník" pro pokračování do další části výzkumu.</p></div>'
 	});
 });
