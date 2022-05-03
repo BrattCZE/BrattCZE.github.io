@@ -100,5 +100,6 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
 			'<color="000000">[4. kolo ze nBlocks]</p></div>',
 		 targetCat : 'čínský piktogram', //The name of the targets (used in the instructions)
+		targetDuration : 300,
 	});
 });
