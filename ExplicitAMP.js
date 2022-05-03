@@ -1,12 +1,12 @@
 define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualtrics/qamp.js'], function (APIConstructor, ampExtension) {
 
     var API = new APIConstructor();
-    var baranUrl = "https://brattcze.github.io/Foto/";
-    var bretaUrl = "https://baranan.github.io/minno-tasks/images/ampImages/"
+    var baranUrl = "https://baranan.github.io/minno-tasks/images/ampImages/";
+    var bretaUrl = "https://brattcze.github.io/Foto/"
 
     var obj = {
         primeCats: [
-           {
+            {
                 nameForLogging : 'chinese',  //Will be used in the logging
                 //An array of all media objects for this category. The default is pic1-pic200.jpg
                 mediaArray : [
@@ -65,7 +65,6 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
                     {image: 'w11.jpg'},
                     {image: 'w12.jpg'}]
             }
-            
         ],
         exampleMaskStimulus : {
             css : {color:'000000', 'font-size':'3em'},
@@ -139,10 +138,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
     };
 
 
-    for (let i = 0; i <  obj.targetCats.length; i++) {
-        for (let j = 0; j < obj.targetCats[i].mediaArray.length; i++) {
-            obj.targetCats[i].mediaArray[j].image = baranUrl + obj.targetCats[i].mediaArray[j].image;
-        }
+    for (let i = 0; i < obj.targetCats[0].mediaArray.length; i++) {
+        obj.targetCats[0].mediaArray[i].image = baranUrl + obj.targetCats[0].mediaArray[i].image;
     }
 
     for (let i = 0; i < obj.primeCats.length; i++) {
