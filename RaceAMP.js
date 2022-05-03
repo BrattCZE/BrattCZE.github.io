@@ -98,7 +98,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
 			'Připraveni? Stiskněte <b>space bar</b>.</p>' + 
 			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
-			'<color="000000">[Round blockNum of nBlocks]</p></div>',
+			'<color="000000">[Round blockNum of nBlockss]</p></div>',
 		 targetCat : 'čínský piktogram', //The name of the targets (used in the instructions)
 	});
 });
