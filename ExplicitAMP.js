@@ -1,8 +1,8 @@
 define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualtrics/qamp.js'], function (APIConstructor, ampExtension) {
 
     var API = new APIConstructor();
-    var baranUrl = "https://baranan.github.io/minno-tasks/images/ampImages/";
-    var bretaUrl = "https://brattcze.github.io/Foto/"
+    var baranUrl = "https://brattcze.github.io/Foto/";
+    var bretaUrl = "https://baranan.github.io/minno-tasks/images/ampImages/"
 
     var obj = {
         primeCats: [
