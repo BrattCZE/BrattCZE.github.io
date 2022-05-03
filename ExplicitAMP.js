@@ -146,8 +146,10 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
     };
 
 
-    for (let i = 0; i < obj.targetCats[0].mediaArray.length; i++) {
-        obj.targetCats[0].mediaArray[i].image = baranUrl + obj.targetCats[0].mediaArray[i].image;
+    for (let i = 0; i <  obj.targetCats.length; i++) {
+        for (let j = 0; j < obj.targetCats[i].mediaArray.length; i++) {
+            obj.targetCats[i].mediaArray[j].image = baranUrl + obj.targetCats[i].mediaArray[j].image;
+        }
     }
 
     for (let i = 0; i < obj.primeCats.length; i++) {
