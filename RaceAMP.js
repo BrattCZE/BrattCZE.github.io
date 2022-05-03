@@ -52,7 +52,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 		},
 
 		base_url : {//Where are your images at?
-			image : 'https://brattcze.github.io/Foto'
+			image : 'https://baranan.github.io/minno-tasks/images/ampImages'
 		},
 		sortingLabel1 : 'příjemnější', //Response is coded as 0. 
 		sortingLabel2 : 'nepříjemnější',  //Response is coded as 1.
