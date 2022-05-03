@@ -149,11 +149,11 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
     }
 
     for (let i = 0; i < obj.examplePrimeStimulus.mediaArray.length; i++) {
-        obj.examplePrimeStimulus.mediaArray[i].image = baranUrl +  obj.examplePrimeStimulus.mediaArray[i].image;
+        obj.examplePrimeStimulus.mediaArray[i].image = bretaUrl +  obj.examplePrimeStimulus.mediaArray[i].image;
     }
 
-    obj.exampleMaskStimulus.media.image = baranUrl + obj.exampleMaskStimulus.media.image;
-    obj.maskStimulus.media.image = baranUrl + obj.maskStimulus.media.image;
+    obj.exampleMaskStimulus.media.image = bretaUrl + obj.exampleMaskStimulus.media.image;
+    obj.maskStimulus.media.image = bretaUrl + obj.maskStimulus.media.image;
 
     return ampExtension(obj);
 });
