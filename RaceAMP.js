@@ -79,12 +79,12 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
             {
                 nameForLogging: 'examplePrime', //Will be used in the logging
                 //An array of all media objects for this category.
-                mediaArray: [{image: 'https://baranan.github.io/minno-tasks/images/ampImages/ampchair.jpg'}, {image: 'https://baranan.github.io/minno-tasks/images/ampImages/amplamp.jpg'}, {image: 'https://baranan.github.io/minno-tasks/images/ampImages/ampumbrella.jpg'}]
+                mediaArray: [{image: 'ampchair.jpg'}, {image: 'amplamp.jpg'}, {image: 'ampumbrella.jpg'}]
             },
 
         maskStimulus : {
             css : {color:'000000', 'font-size':'3em'},
-            media : {image:'https://baranan.github.io/minno-tasks/images/ampImages/ampmask.jpg'}
+            media : {image:'ampmask.jpg'}
         },
         base_url: {//Where are your images at?
             image: ''
@@ -152,6 +152,12 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
             obj.primeCats[i].mediaArray[j].image = bretaUrl + obj.primeCats[i].mediaArray[j].image;
         }
     }
+
+    for (let i = 0; i < obj.examplePrimeStimulus.mediaArray.length; i++) {
+        obj.examplePrimeStimulus.mediaArray[i].image = baranUrl +  obj.examplePrimeStimulus.mediaArray[i].image;
+    }
+
+    obj.maskStimulus.media.image = baranUrl + obj.maskStimulus.media.image;
 
     return ampExtension(obj);
 });
