@@ -87,7 +87,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
 			'Připraveni? Stiskněte <b>space bar</b>.</p>' + 
 			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
-			'<color="000000">[3. kolo ze nBlocks]</p></div>',
+			'<color="000000">[Round blockNum of nBlocks]</p></div>',
 			lastBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
 			'Připraveni na FINÁLNÍ kolo? ' + 
 			'Pravidla sou pořád a stále stejná:<br/><br/>' + 
@@ -98,8 +98,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 			'<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' + 
 			'Připraveni? Stiskněte <b>space bar</b>.</p>' + 
 			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
-			'<color="000000">[4. kolo ze nBlocks]</p></div>',
+			'<color="000000">[Round blockNum of nBlocks]</p></div>',
 		 targetCat : 'čínský piktogram', //The name of the targets (used in the instructions)
-		targetDuration : 300,
 	});
 });
