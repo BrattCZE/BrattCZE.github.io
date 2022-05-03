@@ -100,5 +100,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
 			'<color="000000">[blockNum. kolo ze nBlocks]</p></div>',
 		 targetCat : 'čínský piktogram', //The name of the targets (used in the instructions)
+		endText: '<div><p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial"><color="FFFFFF">'+
+			'Úspěšně jste splnili úkol. Skvělá práce!<br/><br/>Zmáčkněte "mezerník" pro pokračování k dalšímu úkolu.</p></div>'
 	});
 });
