@@ -51,14 +51,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
                     {image: 'b09.jpg'},
                     {image: 'b10.jpg'},
                     {image: 'b11.jpg'},
-                    {image: 'b12.jpg'}]
-
-            },
-            {
-                nameForFeedback: 'Běloši',  //Will be used in the user feedback
-                nameForLogging: 'Běloši', //Will be used in the logging
-                //An array of all media objects for this category.
-                mediaArray: [
+                    {image: 'b12.jpg'},
                     {image: 'w01.jpg'},
                     {image: 'w02.jpg'},
                     {image: 'w03.jpg'},
