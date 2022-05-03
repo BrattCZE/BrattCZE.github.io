@@ -79,9 +79,13 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
             {
                 nameForLogging: 'examplePrime', //Will be used in the logging
                 //An array of all media objects for this category.
-                mediaArray: [{image: 'ampchair.jpg'}, {image: 'amplamp.jpg'}, {image: 'ampumbrella.jpg'}]
+                mediaArray: [{image: 'https://baranan.github.io/minno-tasks/images/ampImages/ampchair.jpg'}, {image: 'https://baranan.github.io/minno-tasks/images/ampImages/amplamp.jpg'}, {image: 'https://baranan.github.io/minno-tasks/images/ampImages/ampumbrella.jpg'}]
             },
 
+        maskStimulus : {
+            css : {color:'000000', 'font-size':'3em'},
+            media : {image:'https://baranan.github.io/minno-tasks/images/ampImages/ampmask.jpg'}
+        },
         base_url: {//Where are your images at?
             image: ''
         },
@@ -135,6 +139,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
             'Úspěšně jste splnili úkol. Skvělá práce!<br/><br/>Zmáčkněte "mezerník" pro pokračování do další části výzkumu.</p></div>',
         targetDuration: 300,
         exampleBlock_targetDuration: 300,
+
     };
 
 
