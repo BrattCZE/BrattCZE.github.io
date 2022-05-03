@@ -73,8 +73,10 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 
             }
         ],
-
-
+        exampleMaskStimulus : {
+            css : {color:'000000', 'font-size':'3em'},
+            media : {image:'ampmaskr.jpg'}
+        },
         examplePrimeStimulus:
             {
                 nameForLogging: 'examplePrime', //Will be used in the logging
@@ -157,6 +159,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
         obj.examplePrimeStimulus.mediaArray[i].image = baranUrl +  obj.examplePrimeStimulus.mediaArray[i].image;
     }
 
+    obj.exampleMaskStimulus.media.image = baranUrl + obj.exampleMaskStimulus.media.image;
     obj.maskStimulus.media.image = baranUrl + obj.maskStimulus.media.image;
 
     return ampExtension(obj);
