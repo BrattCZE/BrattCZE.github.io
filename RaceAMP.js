@@ -67,7 +67,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 			'<p style="font-size:12px; text-align:center; font-family:arial">' + 
 			'<color="000000">[1. kolo ze nBlocks]</p></div>',
 			firstBlockInst : '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' + 
-			"Jde to rychle, co? Nevadí, pokud si některé nestihnete detailně prohlédnout" + 
+			"Jde to rychle, co? Nevadí, pokud si některé nestihnete detailně prohlédnout. " + 
 			'Řiďte se Vaším vnitřním pocitem.<br/><br/>' + 
 			'Soustřeďte se na každý targetCat a hodnoťe, jestli je vizuálně rightAttribute než dle Vašeho názoru průměrný targetCat stisknutím klávesy <b>rightKey</b>, ' + 
 			'nebo vizuálně leftAttribute než průměr stisknutím klávesy <b>leftKey</b>.<br/><br/>' + 
