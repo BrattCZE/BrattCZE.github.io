@@ -10,18 +10,18 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				nameForLogging : 'Romové', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {image : 'B01.jpg'}, 
-					{image : 'B02.jpg'}, 
-					{image : 'B03.jpg'}, 
-					{image : 'B04.jpg'}, 
-					{image : 'B05.jpg'}, 
-					{image : 'B06.jpg'}, 
-					{image : 'B07.jpg'}, 
-					{image : 'B08.jpg'}, 
-					{image : 'B09.jpg'}, 
-					{image : 'B10.jpg'}, 
-					{image : 'B11.jpg'}, 
-					{image : 'B12.jpg'}]
+				    {image : 'b01.jpg'}, 
+					{image : 'b02.jpg'}, 
+					{image : 'b03.jpg'}, 
+					{image : 'b04.jpg'}, 
+					{image : 'b05.jpg'}, 
+					{image : 'b06.jpg'}, 
+					{image : 'b07.jpg'}, 
+					{image : 'b08.jpg'}, 
+					{image : 'b09.jpg'}, 
+					{image : 'b10.jpg'}, 
+					{image : 'b11.jpg'}, 
+					{image : 'b12.jpg'}]
 
 			}, 
 			{
@@ -29,18 +29,18 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
 				nameForLogging : 'Běloši', //Will be used in the logging
 				//An array of all media objects for this category.
 				mediaArray : [
-				    {image : 'W01.jpg'}, 
-					{image : 'W02.jpg'}, 
-					{image : 'W03.jpg'}, 
-					{image : 'W04.jpg'}, 
-					{image : 'W05.jpg'}, 
-					{image : 'W06.jpg'}, 
-					{image : 'W07.jpg'}, 
-					{image : 'W08.jpg'}, 
-					{image : 'W09.jpg'}, 
-					{image : 'W10.jpg'}, 
-					{image : 'W11.jpg'}, 
-					{image : 'W12.jpg'}]
+				    {image : 'w01.jpg'}, 
+					{image : 'w02.jpg'}, 
+					{image : 'w03.jpg'}, 
+					{image : 'w04.jpg'}, 
+					{image : 'w05.jpg'}, 
+					{image : 'w06.jpg'}, 
+					{image : 'w07.jpg'}, 
+					{image : 'w08.jpg'}, 
+					{image : 'w09.jpg'}, 
+					{image : 'w10.jpg'}, 
+					{image : 'w11.jpg'}, 
+					{image : 'w12.jpg'}]
 			}
 		],
 
