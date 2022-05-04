@@ -141,6 +141,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
             'Úspěšně jste splnili úkol. Skvělá práce!<br/><br/>Zmáčkněte "mezerník" pro pokračování do další části výzkumu.</p></div>',
         targetDuration: 300,
         exampleBlock_targetDuration: 300,
+        trialsInBlock : [33,33,34], //Number of trials in each block
 
     };
 
