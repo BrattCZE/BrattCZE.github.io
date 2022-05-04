@@ -88,10 +88,10 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
         sortingLabel2: 'nepříjemnější',  //Response is coded as 1.
         randomizeLabelSides: false, //IF false, then label1 is on the left, and label2 is on the right.
         exampleBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
-            'Vaším úkolem bude zhodnotit vzhled obrazců, které pro Vás mohou mít abstraktní povahu (např. čínské piktogramy). Stiskněte klávesu <B>rightKey</B> pokud targetCat je vizuálně rightAttribute než průměrný targetCat. ' +
+            'Teď Vaším úkolem bude pro změnu hodnotit obličeje. Stiskněte klávesu <B>rightKey</B> pokud targetCat je vizuálně rightAttribute než průměrný targetCat. ' +
             'Stiskněte klávesu <b>leftKey</b> pokud je vizuálně leftAttribute než průměrný.<br/><br/>' +
             'Jednotlivé položky se velmi rychle zobrazí a zmizí.  ' +
-            'Je důležité zdůraznit, že fotografie reálných objektů (např. obličejů) mohou někdy ovlivnit úsudek lidí při hodnocení abstraktních obrazců. Proto nás zajímá do jaké míry jsou lidé schopni vyhnout se těmto vlivům při hodnocení abstraktních obrazců. Zkuste proto prosím vyvinout co nejvyšší úsilí k tomu, abyste se vyhnuli ovlivnění fotografiemi reálných objektů. Dejte nám prosím Vaše upřímné hodnocení abstraktních obrazců bez ohledu na fotografie, které jim předchází.<br/><br/></p>' +
+            'Stejně jako v přechozí části výzkumu vycházíme z toho, že čínské piktogramy, které jste hodnotili v minulé části, Vás mohou ovlivnit při hodnocení vizuální příjemnosti jednotlivých obličejů. Opět nás zajímá, jak dobře jsou lidé schopni izolovat tento vliv při hodnocení nějakého objektu. Pokuste se proto prosím co nejvíce izolovat tento vliv. V této části nás zajímá Vaše upřímné hodnocení vizuální líbivosti promítaných obličejů.<br/><br/></p>' +
             '<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
             'Až na to budete připraveni, stisknutím tlačítka <b>mezerník</b> spustíte pár cvičných pokusů.</p>' +
             '<p style="font-size:12px; text-align:center; font-family:arial">' +
@@ -129,7 +129,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
             'Připraveni? Stiskněte <b>mezerník</b>.</p>' +
             '<p style="font-size:12px; text-align:center; font-family:arial">' +
             '<color="000000">[blockNum. kolo ze nBlocks]</p></div>',
-        targetCat: 'čínský piktogram', //The name of the targets (used in the instructions)
+        targetCat: 'obličej', //The name of the targets (used in the instructions)
         endText: '<div><p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial"><color="FFFFFF">' +
             'Úspěšně jste splnili úkol. Skvělá práce!<br/><br/>Zmáčkněte "mezerník" pro pokračování do další části výzkumu.</p></div>',
         targetDuration: 300,
