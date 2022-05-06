@@ -100,7 +100,7 @@ define(['pipAPI', 'https://brattcze.github.io/MainAMPScript.js'], function (APIC
             'Jednotlivé položky se velmi rychle zobrazí a zmizí.  ' +
             'Je důležité zdůraznit, že fotografie reálných objektů (např. obličejů) mohou někdy ovlivnit úsudek lidí při hodnocení abstraktních obrazců. Proto nás zajímá do jaké míry jsou lidé schopni vyhnout se těmto vlivům při hodnocení abstraktních obrazců. Zkuste proto prosím vyvinout co nejvyšší úsilí k tomu, abyste se vyhnuli ovlivnění fotografiemi reálných objektů. Dejte nám prosím Vaše upřímné hodnocení abstraktních obrazců bez ohledu na fotografie, které jim předchází.<br/><br/></p>' +
             '<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
-            'Až na to budete připraveni, stisknutím tlačítka <b>mezerník</b> spustíte pár cvičných pokusů.</p>' +
+            'Tentokrát už víte co dělat, proto Vám nebudeme pouštět cvičné pokusy, až budete připraveni, stiskněte <b>mezerník</b> pro zahájení <b>ostré verze úkolu.</b>.</p>' +
             '<p style="font-size:12px; text-align:center; font-family:arial">' +
             '<color="000000">[1. kolo ze nBlocks]</p></div>',
         firstBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
