@@ -1311,6 +1311,7 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 		API.addSettings('hooks',{
 			endTask: function(){
 				var logs = API.getLogs();//saving the logs
+				console.log(logs);
 				var feedbackObj = piCurrent.responses==2 ? computeAMPScore2(logs) : computeAMPScore7(logs);
 				//Save for the task's session.
 				piCurrent.feedback = feedbackObj;
