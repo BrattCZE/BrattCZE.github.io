@@ -142,7 +142,7 @@ define(['pipAPI', 'https://brattcze.github.io/MainAMPScript.js'], function (APIC
         targetDuration: 300,
         exampleBlock_targetDuration: 300,
         trialsInBlock : [33,33,34], //Number of trials in each block
-
+        trialsInExample : 3, //Change to 0 if you don't want an example block
     };
 
 
