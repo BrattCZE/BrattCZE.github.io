@@ -978,43 +978,43 @@ define(['pipAPI','underscore'], function(APIConstructor, _) {
 		Add a stimulus for each prime category
 		**/
 		var stimCSS, catName;
-		for (iPrimeCat = 0; iPrimeCat < piCurrent.primeCats.length; iPrimeCat++)
-		{
-			catName = piCurrent.primeCats[iPrimeCat].nameForLogging;
-			//Users can set a css property for each prime category, or opt to use the primeStimulusCSS general property.
-			stimCSS = piCurrent.primeStimulusCSS;
-			if (piCurrent.primeCats[iPrimeCat].hasOwnProperty('css'))
-			{
-				stimCSS = piCurrent.primeCats[iPrimeCat].css;
-			}
-			API.addStimulusSets(catName,
-			{
-				inherit : 'Default', 
-				data : {handle:'primeStim', alias:catName}, 
-				css : stimCSS,
-				media : {inherit : {set:catName, type:'exRandom'}}
-			});
-		}
-		/**
-		Add a stimulus for each target category
-		**/
-		for (iTargetCat = 0; iTargetCat < piCurrent.targetCats.length; iTargetCat++)
-		{
-			catName = piCurrent.targetCats[iTargetCat].nameForLogging;
-			//Users can set a css property for each prime category, or opt to use the primeStimulusCSS general property.
-			stimCSS = piCurrent.targetStimulusCSS;
-			if (piCurrent.targetCats[iTargetCat].hasOwnProperty('css'))
-			{
-				stimCSS = piCurrent.targetCats[iTargetCat].css;
-			}
-			API.addStimulusSets(catName,
-			{
-				inherit : 'Default', 
-				data : {handle:'targetStim', alias:catName}, 
-				css : stimCSS,
-				media : {inherit : {set:catName, type:'exRandom'}}
-			});
-		}
+		for (iPrimeCat = 0; iPrimeCat < piCurrent.targetCats.length; iPrimeCat++)
+        {
+            catName = piCurrent.targetCats[iPrimeCat].nameForLogging;
+            //Users can set a css property for each prime category, or opt to use the primeStimulusCSS general property.
+            stimCSS = piCurrent.targetStimulusCSS;
+            if (piCurrent.targetCats[iPrimeCat].hasOwnProperty('css'))
+            {
+                stimCSS = piCurrent.targetCats[iPrimeCat].css;
+            }
+            API.addStimulusSets(catName,
+            {
+                inherit : 'Default', 
+                data : {handle:'primeStim', alias:catName}, 
+                css : stimCSS,
+                media : {inherit : {set:catName, type:'exRandom'}}
+            });
+        }
+        /**
+        Add a stimulus for each target category
+        **/
+        for (iTargetCat = 0; iTargetCat < piCurrent.primeCats.length; iTargetCat++)
+        {
+            catName = piCurrent.primeCats[iTargetCat].nameForLogging;
+            //Users can set a css property for each prime category, or opt to use the primeStimulusCSS general property.
+            stimCSS = piCurrent.primeStimulusCSS;
+            if (piCurrent.primeCats[iTargetCat].hasOwnProperty('css'))
+            {
+                stimCSS = piCurrent.primeCats[iTargetCat].css;
+            }
+            API.addStimulusSets(catName,
+            {
+                inherit : 'Default', 
+                data : {handle:'targetStim', alias:catName}, 
+                css : stimCSS,
+                media : {inherit : {set:catName, type:'exRandom'}}
+            });
+        }
 		
 		/***
 		Create media
