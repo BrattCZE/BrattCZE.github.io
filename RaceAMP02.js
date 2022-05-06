@@ -95,7 +95,7 @@ define(['pipAPI', 'https://brattcze.github.io/MainAMPScript.js'], function (APIC
         sortingLabel2: 'nepříjemnější',  //Response is coded as 1.
         randomizeLabelSides: false, //IF false, then label1 is on the left, and label2 is on the right.
          exampleBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
-            'Teď Vaším úkolem bude pro změnu hodnotit obličeje. Stiskněte klávesu <B>rightKey</B> pokud targetCat je vizuálně rightAttribute než průměrný targetCat. ' +
+            'Teď Vaším úkolem bude pro změnu hodnotit obličeje. Stiskněte klávesu <B>rightKey</B> pokud je pro Vás targetCat vizuálně rightAttribute než průměrný targetCat. ' +
             'Stiskněte klávesu <b>leftKey</b> pokud je vizuálně leftAttribute než průměrný.<br/><br/>' +
             'Jednotlivé položky se velmi rychle zobrazí a zmizí.  ' +
             'Stejně jako v přechozí části výzkumu vycházíme z toho, že čínské piktogramy, které jste hodnotili v minulé části, Vás mohou ovlivnit při hodnocení vizuální příjemnosti jednotlivých obličejů. Opět nás zajímá, jak dobře jsou lidé schopni izolovat tento vliv při hodnocení nějakého objektu. Pokuste se proto prosím co nejvíce izolovat tento vliv. V této části nás zajímá Vaše upřímné hodnocení vizuální líbivosti promítaných obličejů.<br/><br/></p>' +
