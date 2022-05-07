@@ -22,7 +22,14 @@ define(['pipAPI', 'https://brattcze.github.io/MainAMPScript.js'], function (APIC
                     {image: 'b09.jpg'},
                     {image: 'b10.jpg'},
                     {image: 'b11.jpg'},
-                    {image: 'b12.jpg'}]
+                    {image: 'b12.jpg'},
+                    {image: 'b13.jpg'},
+                    {image: 'b14.jpg'},
+                    {image: 'b15.jpg'},
+                    {image: 'b16.jpg'},
+                    {image: 'b17.jpg'},
+                    {image: 'b18.jpg'},
+                    {image: 'b19.jpg'}]
 
             },
             {
@@ -41,7 +48,14 @@ define(['pipAPI', 'https://brattcze.github.io/MainAMPScript.js'], function (APIC
                     {image: 'w09.jpg'},
                     {image: 'w10.jpg'},
                     {image: 'w11.jpg'},
-                    {image: 'w12.jpg'}]
+                    {image: 'w12.jpg'},
+                    {image: 'w13.jpg'},
+                    {image: 'w14.jpg'},
+                    {image: 'w15.jpg'},
+                    {image: 'w16.jpg'},
+                    {image: 'w17.jpg'},
+                    {image: 'w18.jpg'},
+                    {image: 'w19.jpg'}]
             }
         ],
         targetCats :  [
