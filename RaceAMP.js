@@ -22,7 +22,14 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
                     {image: 'b09.jpg'},
                     {image: 'b10.jpg'},
                     {image: 'b11.jpg'},
-                    {image: 'b12.jpg'}]
+                    {image: 'b12.jpg'},
+                    {image: 'b13.jpg'},
+                    {image: 'b14.jpg'},
+                    {image: 'b15.jpg'},
+                    {image: 'b16.jpg'},
+                    {image: 'b17.jpg'},
+                    {image: 'b18.jpg'},
+                    {image: 'b19.jpg'}]
 
             },
             {
@@ -41,7 +48,14 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
                     {image: 'w09.jpg'},
                     {image: 'w10.jpg'},
                     {image: 'w11.jpg'},
-                    {image: 'w12.jpg'}]
+                    {image: 'w12.jpg'},
+                    {image: 'w13.jpg'},
+                    {image: 'w14.jpg'},
+                    {image: 'w15.jpg'},
+                    {image: 'w16.jpg'},
+                    {image: 'w17.jpg'},
+                    {image: 'w18.jpg'},
+                    {image: 'w19.jpg'}]
             }
         ],
         targetCats :  [
@@ -95,8 +109,8 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
         sortingLabel2: 'nepříjemnější',  //Response is coded as 1.
         randomizeLabelSides: false, //IF false, then label1 is on the left, and label2 is on the right.
         exampleBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
-            'Vaším úkolem bude zhodnotit vzhled obrazců, které pro Vás mohou mít abstraktní povahu (např. čínské piktogramy). Stiskněte klávesu <B>rightKey</B> pokud targetCat je vizuálně rightAttribute než průměrný targetCat. ' +
-            'Stiskněte klávesu <b>leftKey</b> pokud je vizuálně leftAttribute než průměrný.<br/><br/>' +
+            'Vaším úkolem bude zhodnotit vzhled obrazců, které pro Vás mohou mít abstraktní povahu (např. čínské piktogramy). Stiskněte klávesu <B>rightKey</B> pokud Vám targetCat bude připadat vizuálně rightAttribute než průměrný targetCat. ' +
+            'Stiskněte klávesu <b>leftKey</b> pokud Vám bude připadat vizuálně leftAttribute než průměrný.<br/><br/>' +
             'Jednotlivé položky se velmi rychle zobrazí a zmizí.  ' +
             'Je důležité zdůraznit, že fotografie reálných objektů (např. obličejů) mohou někdy ovlivnit úsudek lidí při hodnocení abstraktních obrazců. Proto nás zajímá do jaké míry jsou lidé schopni vyhnout se těmto vlivům při hodnocení abstraktních obrazců. Zkuste proto prosím vyvinout co nejvyšší úsilí k tomu, abyste se vyhnuli ovlivnění fotografiemi reálných objektů. Dejte nám prosím Vaše upřímné hodnocení abstraktních obrazců bez ohledu na fotografie, které jim předchází. Promítneme Vám proto vždy v krátkém sledu fotografii reálného objektu a následně čínský piktogram. Poté budete mít prostor na hodnocení.<br/><br/></p>' +
             '<p style="font-size:16px; text-align:center; font-family:arial"><color="000000"><br/><br/>' +
@@ -106,7 +120,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
         firstBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
             "Jde to rychle, co? Nevadí, pokud si některé nestihnete detailně prohlédnout. " +
             'Řiďte se Vaším vnitřním pocitem.<br/><br/>' +
-            'Soustřeďte se na každý targetCat a hodnoťe, jestli je vizuálně rightAttribute než dle Vašeho názoru průměrný targetCat stisknutím klávesy <b>rightKey</b>, ' +
+            'Soustřeďte se na každý targetCat a hodnoťe, jestli Vám připadá vizuálně rightAttribute než dle Vašeho názoru průměrný targetCat stisknutím klávesy <b>rightKey</b>, ' +
             'nebo vizuálně leftAttribute než průměr stisknutím klávesy <b>leftKey</b>.<br/><br/>' +
             'Hodnoťte pouze targetCat a ne položky, které jim předcházejí. ' +
             'Někdy Vám budou moci připadat rozptylující. To je v pořádku.<br/><br/>' +
@@ -117,7 +131,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
         middleBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
             'Pokračujte do dalšího kola úkolu. ' +
             'Pravidla jsou stále stejná:<br/><br/>' +
-            'Soustřeďte se na každý targetCat a hodnoťe, jestli je vizuálně rightAttribute než dle Vašeho názoru průměrný targetCat stisknutím klávesy <b>rightKey</b>, ' +
+            'Soustřeďte se na každý targetCat a hodnoťe, jestli Vám připadá vizuálně rightAttribute než dle Vašeho názoru průměrný targetCat stisknutím klávesy <b>rightKey</b>, ' +
             'nebo vizuálně leftAttribute než průměr stisknutím klávesy <b>leftKey</b>.<br/><br/>' +
             'Hodnoťte pouze targetCat a ne položky, které jim předcházejí. ' +
             'Tyto položky Vás mohou rozptylovat. Řiďte se však při hodnocení Vaším vnitřním pocitem.<br/><br/>' +
@@ -128,7 +142,7 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/amp/qualt
         lastBlockInst: '<div><p style="font-size:20px; text-align:left; margin-left:10px; font-family:arial"><color="000000"><br/>' +
             'Připraveni na FINÁLNÍ kolo? ' +
             'Pravidla sou pořád a stále stejná:<br/><br/>' +
-            'Soustřeďte se na každý targetCat a hodnoťe, jestli je vizuálně rightAttribute než dle Vašeho názoru průměrný targetCat stisknutím klávesy <b>rightKey</b>, ' +
+            'Soustřeďte se na každý targetCat a hodnoťe, jestli Vám připadá vizuálně rightAttribute než dle Vašeho názoru průměrný targetCat stisknutím klávesy <b>rightKey</b>, ' +
             'nebo vizuálně leftAttribute než průměr stisknutím klávesy <b>leftKey</b>.<br/><br/>' +
             'Hodnoťte pouze targetCat a ne položky, které jim předcházejí. ' +
             'Tyto položky Vás mohou rozptylovat. Řiďte se však při hodnocení Vaším vnitřním pocitem.<br/><br/>' +
